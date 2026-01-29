@@ -37,7 +37,7 @@ This project is built for learning and practical use, without FAISS or embedding
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/pdf-legal-analyzer.git
+git clone https://github.com/hrutik05/PDF_Analyzer.git
 cd pdf-legal-analyzer
 ```
 
