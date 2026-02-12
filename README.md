@@ -60,7 +60,56 @@ npm run dev
 ```
 
 ---
-
+### Folder Sturcture
+```bash 
+└── pdf-legal-analyzer
+    └── backend
+        └── app
+            └── models
+                ├── response_models.py
+            └── routes
+                ├── ai_routes.py
+                ├── pdf_routes.py
+            └── services
+                ├── gemini_service.py
+                ├── pdf_service.py
+            └── storage
+                └── extracted_text
+                └── pdfs
+            └── utils
+                ├── chunker.py
+                ├── text_cleaner.py
+            ├── config.py
+            ├── main.py
+        ├── .env
+        ├── requirements.txt
+    └── frontend
+        └── public
+            ├── worker.js
+        └── src
+            └── assets
+            └── components
+                ├── AnswerBox.jsx
+                ├── PdfUploader.jsx
+                ├── PdfViewer.jsx
+                ├── QuestionBox.jsx
+            └── pages
+                ├── Home.jsx
+            └── services
+                ├── api.js
+            ├── App.jsx
+            ├── index.css
+            ├── main.jsx
+        ├── eslint.config.js
+        ├── index.html
+        ├── package-lock.json
+        ├── package.json
+        ├── postcss.config.cjs
+        ├── README.md
+        ├── tailwind.config.js
+        └── vite.config.js
+```
+---
 ### Important Notes
 - Backend must be running before frontend
 - Only PDF files are supported
