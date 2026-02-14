@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://pdf-analyzer-backend-yq9x.onrender.com",
+  baseURL: "https://pdf-analyzer-backend-jqau.onrender.com",
 });
 
 export const uploadPdf = async (file) => {
